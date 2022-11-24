@@ -92,14 +92,14 @@ header .carousel-item {
   z-index: 0;
 }
 header .carousel-img-one {
-  background-image: url("/GPX Pro Gaming/img/title1 small.jpg");
+  background-image: url("../img/title1\ small.jpg");
 }
 header .carousel-img-two {
   background-position: bottom;
-  background-image: url("/GPX Pro Gaming/img/title4 small.jpg");
+  background-image: url("../img/title4 small.jpg");
 }
 header .carousel-img-three {
-  background-image: url("/GPX Pro Gaming/img/title3 small.jpg");
+  background-image: url("../img/title3 small.jpg");
 }
 
 .home-boxes {
