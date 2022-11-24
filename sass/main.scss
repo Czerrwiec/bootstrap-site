@@ -1,0 +1,475 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.6rem;
+}
+
+.hero-shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.65);
+	z-index: -2;
+}
+
+.top-hero {
+	position: relative;
+	height: 250px;
+	background-size: cover;
+	z-index: 0;
+
+	.top-hero-text {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 3.6rem;
+		text-transform: uppercase;
+		height: 100%;
+	}
+}
+
+.navbar-brand {
+	font-size: 2rem;
+	color: #f6f6f6;
+	padding-bottom: 10px;
+	transition: color 0.4s;
+
+	i {
+		margin-right: 10px;
+		font-size: 3.5rem;
+		color: #b90504;
+	}
+
+	&:hover {
+		color: #b90504;
+	}
+}
+
+.navbar {
+	font-size: 2rem;
+	background-color: #0b090a;
+
+	button {
+		color: #f6f6f6;
+		border: none;
+		font-size: 2.5rem;
+		margin: 5px;
+		padding: 5px 10px;
+	}
+
+	.navbar-nav {
+		.nav-link {
+			padding: 5px 15px;
+			color: #f6f6f6;
+			&:hover {
+				color: #b90504;
+			}
+		}
+	}
+
+	.nav-link.active {
+		color: #b90504;
+	}
+}
+
+.nav-link.active {
+	color: #b90504;
+}
+
+header {
+	font-size: 2rem;
+
+	.carousel-item {
+		position: relative;
+		height: 400px;
+		background-size: cover;
+		background-position: cover;
+		z-index: 0;
+	}
+	.carousel-img-one {
+		background-image: url('/GPX Pro Gaming/img/title1 small.jpg');
+	}
+	.carousel-img-two {
+		background-position: bottom;
+		background-image: url('/GPX Pro Gaming/img/title4 small.jpg');
+	}
+	.carousel-img-three {
+		background-image: url('/GPX Pro Gaming/img/title3 small.jpg');
+	}
+}
+
+.home-boxes {
+	padding: 5em;
+	background-color: #e8e8e8;
+
+	.main-item {
+		padding: 0px 15px;
+
+		h3 {
+			font-size: 2.3rem;
+		}
+
+		i {
+			margin-bottom: 30px;
+			font-size: 4rem;
+		}
+		p {
+			font-size: 1.6rem;
+		}
+	}
+}
+
+.home-passion {
+	position: relative;
+	height: 350px;
+	background-size: cover;
+	background-position: center;
+	background-image: url('/GPX Pro Gaming/img/ryzen s.jpg');
+	z-index: 0;
+
+	h2 {
+		font-size: 3rem;
+	}
+}
+
+.home-history {
+	background-color: #e8e8e8;
+	.history-text {
+		.history-text-p {
+			font-size: 1.6rem;
+		}
+	}
+
+	img {
+		padding-top: 20px;
+		padding-left: 100px;
+		height: 400px;
+	}
+}
+
+footer {
+	background-color: #0b090a;
+	font-size: 1.6rem;
+	i {
+		margin: 0 10px;
+		font-size: 2.4rem;
+		color: #b90504;
+	}
+}
+
+.aboutus-hero {
+	background-image: url('/GPX Pro Gaming/img/aboutus/key s.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.about-us {
+	background-color: #e8e8e8;
+	i {
+		margin-right: 10px;
+		color: #b90504;
+	}
+
+	.about-us-text {
+		font-size: 1.6rem;
+	}
+}
+
+.aboutus-info {
+	background-color: #f6f6f6;
+
+	.container {
+		padding: 2em 0.5em;
+	}
+
+	.aboutus-text {
+		padding: 1.8em;
+		font-size: 1.6rem;
+
+		h3 {
+			font-size: 2.6rem;
+			text-transform: uppercase;
+			margin-bottom: 0.5em;
+			font-weight: bold;
+			text-decoration: underline #b90504;
+		}
+	}
+
+	.aboutus-text-right {
+		text-align: right;
+	}
+
+	.aboutus-img {
+		height: 300px;
+		object-fit: cover;
+	}
+}
+
+.aboutus-cards {
+	background-color: #e8e8e8;
+
+	.card {
+		transition: transform 0.5s;
+
+		box-shadow: 0px 0px 5px;
+
+		i {
+			font-size: 3rem;
+		}
+
+		.card-text {
+			font-size: 1.4rem;
+		}
+
+		&:hover {
+			transform: scale(1.04);
+		}
+	}
+
+	.card-light {
+		background-color: #e8e8e8;
+	}
+
+	.card-dark {
+		background-color: #990100;
+	}
+}
+
+.services-hero {
+	background-image: url('/GPX Pro Gaming/img/services/3 s.jpg');
+	background-position: center;
+}
+
+.services {
+	background-color: #f6f6f6;
+
+	.bottom-text {
+		font-size: 1.4rem;
+	}
+
+	.services-img {
+		position: relative;
+		height: 300px;
+		background-size: cover;
+		z-index: 0;
+
+		p {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 3rem;
+			color: #f6f6f6;
+			text-transform: uppercase;
+			transition: transform 0.5s;
+		}
+
+		&:hover {
+			p {
+				transform: scale(1.2);
+			}
+		}
+	}
+
+	.box-one {
+		background-image: url('/GPX Pro Gaming/img/services/setup2.jpg');
+	}
+
+	.box-two {
+		background-image: url('/GPX Pro Gaming/img/services/driving setup.jpg');
+	}
+
+	.box-three {
+		background-image: url('/GPX Pro Gaming/img/services/machineee.avif');
+		background-position: center;
+	}
+
+	.box-four {
+		background-image: url('/GPX Pro Gaming/img/services/audio.jpg');
+		.hero-shadow {
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+	}
+}
+
+.projects-hero {
+	background-image: url('/GPX Pro Gaming/img/projects/top3.jpg');
+	background-position: bottom;
+	.hero-shadow {
+		background-color: rgba(0, 0, 0, 0.7);
+	}
+}
+
+.projects-cards {
+	background-color: #e8e8e8;
+
+	.card {
+		transition: 0.3s;
+		background-color: #f6f6f6;
+		img {
+			height: 300px;
+			object-fit: cover;
+			border-top-left-radius: 2px;
+			border-top-right-radius: 2px;
+		}
+		&:hover {
+			box-shadow: 0 0 5px;
+		}
+
+		.card-bottom {
+			.btn {
+				font-size: 1.6rem;
+				&:hover {
+					background-color: #b90504;
+				}
+			}
+		}
+	}
+}
+
+.contact-hero {
+	background-image: url('/GPX Pro Gaming/img/contact/top2.jpg');
+}
+
+.contact {
+	background-color: #e8e8e8;
+
+	.adress-box {
+		border: 0.5px dotted rgb(125, 123, 123);
+
+		.contact-logo {
+			border-top: 0.5px dotted rgb(125, 123, 123);
+			font-size: 2rem;
+			i {
+				color: #b90504;
+				margin-right: 2px;
+			}
+		}
+	}
+	.form {
+		border: 0.5px dotted rgb(125, 123, 123);
+
+		.btn {
+			font-size: 1.6rem;
+			padding: 0.3em 0.8em;
+			margin-top: 0.4em;
+
+			&:hover {
+				background-color: #b90504;
+			}
+		}
+
+		input,
+		select,
+		textarea {
+			font-size: 1.4rem;
+		}
+	}
+}
+
+.contact-map {
+	iframe {
+		width: 100%;
+		min-height: 400px;
+	}
+}
+
+//////////////////////MEDIA/////////////////////////
+
+@media (min-width: 992px) {
+	header {
+		.carousel-img-one {
+			background-image: url('/GPX Pro Gaming/img/title1.jpg');
+		}
+		.carousel-img-two {
+			background-position: bottom;
+			background-image: url('/GPX Pro Gaming/img/title4.jpg');
+		}
+		.carousel-img-three {
+			background-image: url('/GPX Pro Gaming/img/title3.jpg');
+		}
+	}
+
+	.aboutus-info {
+		.container {
+			padding: 0;
+		}
+
+		.aboutus-text {
+			padding: 5em 0;
+			transform: skew(-15deg);
+		}
+
+		.aboutus-text-left {
+			padding-right: 2.5em;
+			text-align: right;
+		}
+		.aboutus-text-right {
+			padding-left: 2.5em;
+			text-align: left;
+		}
+
+		.aboutus-img {
+			height: auto;
+			transform: skew(-15deg);
+		}
+	}
+
+	.aboutus-shadow {
+		box-shadow: inset 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+	}
+
+	.home-passion {
+		background-image: url('/GPX Pro Gaming/img/ryzen.jpg');
+	}
+
+	.aboutus-hero {
+		background-image: url('/GPX Pro Gaming/img/aboutus/key.jpg');
+	}
+
+	.services-hero {
+		background-image: url('/GPX Pro Gaming/img/services/3.jpg');
+		background-position: center;
+	}
+
+	.projects-hero {
+		background-image: url('/GPX Pro Gaming/img/projects/top3\ l.jpg');
+		background-position: center;
+	}
+
+	.contact-hero {
+		background-image: url('/GPX Pro Gaming/img/contact/top2 l.jpg');
+		background-position: center;
+	}
+}
+
+@media (min-width: 1200px) {
+	header {
+		font-size: 2rem;
+		.carousel-item {
+			position: relative;
+			height: 600px;
+			background-size: cover;
+			background-position: center;
+			z-index: 0;
+		}
+	}
+
+	.home-history {
+		img {
+			padding-left: 200px;
+			height: 500px;
+		}
+	}
+}
