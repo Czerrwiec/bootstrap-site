@@ -100,14 +100,14 @@ header {
 		z-index: 0;
 	}
 	.carousel-img-one {
-		background-image: url('/dist/img/title1 small.jpg');
+		background-image: url('../img/title1 small.jpg');
 	}
 	.carousel-img-two {
 		background-position: bottom;
-		background-image: url('/dist/img/title4 small.jpg');
+		background-image: url('../img/title4 small.jpg');
 	}
 	.carousel-img-three {
-		background-image: url('/dist/img/title3 small.jpg');
+		background-image: url('../img/title3 small.jpg');
 	}
 }
 
@@ -137,7 +137,7 @@ header {
 	height: 350px;
 	background-size: cover;
 	background-position: center;
-	background-image: url('/dist/img/ryzen s.jpg');
+	background-image: url('../img/ryzen s.jpg');
 	z-index: 0;
 
 	h2 {
@@ -171,7 +171,7 @@ footer {
 }
 
 .aboutus-hero {
-	background-image: url('/dist/img/key s.jpg');
+	background-image: url('../img/key s.jpg');
 	background-size: cover;
 	background-position: center;
 }
@@ -249,7 +249,7 @@ footer {
 }
 
 .services-hero {
-	background-image: url('/dist/img/3 s.jpg');
+	background-image: url('../img/3 s.jpg');
 	background-position: center;
 }
 
@@ -284,20 +284,20 @@ footer {
 	}
 
 	.box-one {
-		background-image: url('/dist/img/setup2.jpg');
+		background-image: url('../img/setup2.jpg');
 	}
 
 	.box-two {
-		background-image: url('/dist/img/driving setup.jpg');
+		background-image: url('../img/driving setup.jpg');
 	}
 
 	.box-three {
-		background-image: url('/dist/img/machineee.avif');
+		background-image: url('../img/machineee.avif');
 		background-position: center;
 	}
 
 	.box-four {
-		background-image: url('/dist/img/audio.jpg');
+		background-image: url('../img/audio.jpg');
 		.hero-shadow {
 			background-color: rgba(0, 0, 0, 0.5);
 		}
@@ -305,7 +305,7 @@ footer {
 }
 
 .projects-hero {
-	background-image: url('/dist/img/top3.jpg');
+	background-image: url('../img/top3.jpg');
 	background-position: bottom;
 	.hero-shadow {
 		background-color: rgba(0, 0, 0, 0.7);
@@ -340,7 +340,7 @@ footer {
 }
 
 .contact-hero {
-	background-image: url('/dist/img/top2.jpg');
+	background-image: url('../img/top2.jpg');
 }
 
 .contact {
@@ -403,14 +403,14 @@ footer {
 @media (min-width: 992px) {
 	header {
 		.carousel-img-one {
-			background-image: url('/dist/img/title1.jpg');
+			background-image: url('../img/title1.jpg');
 		}
 		.carousel-img-two {
 			background-position: bottom;
-			background-image: url('/dist/img/title4.jpg');
+			background-image: url('../img/title4.jpg');
 		}
 		.carousel-img-three {
-			background-image: url('/dist/img/title3.jpg');
+			background-image: url('../img/title3.jpg');
 		}
 	}
 
@@ -444,25 +444,25 @@ footer {
 	}
 
 	.home-passion {
-		background-image: url('/dist/img/ryzen.jpg');
+		background-image: url('../img/ryzen.jpg');
 	}
 
 	.aboutus-hero {
-		background-image: url('/dist/img/key.jpg');
+		background-image: url('../img/key.jpg');
 	}
 
 	.services-hero {
-		background-image: url('/dist/img/3.jpg');
+		background-image: url('../img/3.jpg');
 		background-position: center;
 	}
 
 	.projects-hero {
-		background-image: url('/dist/img/top3\ l.jpg');
+		background-image: url('../img/top3\ l.jpg');
 		background-position: center;
 	}
 
 	.contact-hero {
-		background-image: url('/dist/img/top2 l.jpg');
+		background-image: url('../img/top2 l.jpg');
 		background-position: center;
 	}
 
